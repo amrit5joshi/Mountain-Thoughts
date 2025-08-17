@@ -46,7 +46,7 @@ const Stats = () => {
             Our Impact in Numbers
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Trusted by mountain communities, governments, and agricultural innovators worldwide
+            Trusted by government agencies, NGOs, INGOs, and private organizations across Nepal for professional consulting services
           </p>
         </div>
         
