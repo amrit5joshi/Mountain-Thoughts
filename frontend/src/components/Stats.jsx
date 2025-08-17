@@ -22,9 +22,9 @@ const Stats = () => {
     },
     {
       id: 3,
-      value: mockStats.countriesReached + '+',
-      label: 'Countries Reached',
-      description: 'Global mountain agriculture presence',
+      value: mockStats.districtsReached + '+',
+      label: 'Districts Reached',
+      description: 'Development projects across Nepal',
       icon: Globe,
       color: 'text-purple-600'
     },
