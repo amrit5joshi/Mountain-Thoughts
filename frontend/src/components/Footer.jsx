@@ -17,22 +17,22 @@ const Footer = () => {
               <span className="text-2xl font-bold tracking-tight">MOUNTAIN THOUGHTS</span>
             </div>
             <p className="text-gray-300 leading-relaxed mb-6 max-w-md">
-              Mountain is a global consulting firm specializing in climate-smart agriculture, 
-              mountain farming systems, and sustainable farming practices. We help create 
-              resilient food systems in challenging mountain environments worldwide.
+              Mountain Thoughts Pvt. Ltd. is a professional consulting organization established in 2015, 
+              committed to sustainable development through research, capacity building, and strategic 
+              partnerships across Nepal's diverse sectors.
             </p>
             <div className="space-y-3">
               <div className="flex items-center space-x-3">
                 <MapPin className="h-5 w-5 text-emerald-400 flex-shrink-0" />
-                <span className="text-gray-300">1234 Mountain View Drive, Denver, CO 80202</span>
+                <span className="text-gray-300">Mahalaxmi Municipality-5, Lalitpur, Nepal</span>
               </div>
               <div className="flex items-center space-x-3">
                 <Phone className="h-5 w-5 text-emerald-400 flex-shrink-0" />
-                <span className="text-gray-300">+1 (555) 123-4567</span>
+                <span className="text-gray-300">01-5007006 / +977-9858421062</span>
               </div>
               <div className="flex items-center space-x-3">
                 <Mail className="h-5 w-5 text-emerald-400 flex-shrink-0" />
-                <span className="text-gray-300">hello@mountain-consulting.com</span>
+                <span className="text-gray-300">mthoughts2072@gmail.com</span>
               </div>
             </div>
           </div>
