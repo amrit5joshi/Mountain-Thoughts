@@ -43,27 +43,27 @@ const Footer = () => {
             <ul className="space-y-3">
               <li>
                 <a href="#" className="text-gray-300 hover:text-emerald-400 transition-colors duration-200">
-                  Mountain Farm Development
+                  Environmental Impact Assessment
                 </a>
               </li>
               <li>
                 <a href="#" className="text-gray-300 hover:text-emerald-400 transition-colors duration-200">
-                  Climate Adaptation Consulting
+                  Value Chain Development
                 </a>
               </li>
               <li>
                 <a href="#" className="text-gray-300 hover:text-emerald-400 transition-colors duration-200">
-                  Sustainable Agriculture Design
+                  Capacity Building & Training
                 </a>
               </li>
               <li>
                 <a href="#" className="text-gray-300 hover:text-emerald-400 transition-colors duration-200">
-                  High-Altitude Farming Systems
+                  Local Government Support
                 </a>
               </li>
               <li>
                 <a href="#" className="text-gray-300 hover:text-emerald-400 transition-colors duration-200">
-                  Research & Development
+                  Agriculture & Forestry Consulting
                 </a>
               </li>
             </ul>
