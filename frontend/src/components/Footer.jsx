@@ -14,7 +14,7 @@ const Footer = () => {
               <div className="w-10 h-10 bg-gradient-to-r from-green-400 to-emerald-500 rounded-full flex items-center justify-center">
                 <span className="text-white font-bold text-lg">M</span>
               </div>
-              <span className="text-2xl font-bold tracking-tight">MOUNTAIN</span>
+              <span className="text-2xl font-bold tracking-tight">MOUNTAIN THOUGHTS</span>
             </div>
             <p className="text-gray-300 leading-relaxed mb-6 max-w-md">
               Mountain is a global consulting firm specializing in climate-smart agriculture, 
