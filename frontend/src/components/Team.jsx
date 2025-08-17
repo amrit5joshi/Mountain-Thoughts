@@ -54,22 +54,23 @@ const Team = () => {
         {/* Section Header */}
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-            Meet Our Experts in Climate-Smart Mountain Agriculture
+            Meet Our Team of Professional Consultants
           </h2>
           <div className="max-w-4xl mx-auto">
             <p className="text-lg text-gray-700 leading-relaxed mb-4">
-              Mountain's global team brings 50+ years of combined experience designing sustainable, high-impact 
-              mountain agriculture projects—from alpine farms and high-altitude systems to mountain regenerative 
-              agriculture and climate adaptation strategy.
+              Mountain Thoughts Pvt. Ltd.'s core team brings diverse expertise in project management, environmental 
+              science, agriculture, engineering, and socio-economic development. Our team is supported by a roster 
+              of 39+ specialized experts across multiple disciplines.
             </p>
             <p className="text-lg text-gray-700 leading-relaxed mb-4">
-              We turn complex mountain visions into actionable plans through feasibility studies, terrain assessments, 
-              altitude-specific business modeling, and climate-smart mountain technology guidance.
+              We transform development challenges into actionable solutions through feasibility studies, 
+              environmental assessments, capacity building programs, and strategic project implementation 
+              across Nepal and the region.
             </p>
             <p className="text-lg text-gray-700 leading-relaxed">
-              Whether you're a government shaping mountain food policy, a developer integrating high-altitude farming, 
-              or a founder launching a mountain farm, we deliver tailored, future-ready solutions. Partner with Mountain 
-              to build smarter, more resilient mountain agriculture—globally and locally.
+              Whether you're a government agency, NGO, private organization, or individual seeking professional 
+              consulting services, our multidisciplinary team delivers evidence-based solutions and sustainable 
+              development outcomes.
             </p>
           </div>
         </div>
