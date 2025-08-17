@@ -16,7 +16,7 @@ const Stats = () => {
       id: 2,
       value: mockStats.projectsCompleted + '+',
       label: 'Projects Completed',
-      description: 'Successful mountain farming initiatives',
+      description: 'Major consulting assignments completed',
       icon: Building,
       color: 'text-blue-600'
     },
