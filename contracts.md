@@ -1,11 +1,90 @@
-# Mountain Website - Implementation Contracts
+# Mountain Thoughts Pvt. Ltd. Website - Implementation Contracts
+
+## Company Information
+**Mountain Thoughts Pvt. Ltd.**
+- Established: 2015
+- Registration: 15547/443/072/073
+- VAT No: 609687815
+- Location: Mahalaxmi Municipality-5, Lalitpur, Nepal
+- Contact: Krishna Datta Bhatta (Managing Director)
+- Phone: 01-5007006 / +977-9858421062
+- Email: mthoughts2072@gmail.com
 
 ## Overview
-This document outlines the frontend implementation and mock data structure for the Mountain climate-smart agriculture consulting website, similar to agritecture.com.
+This document outlines the frontend implementation and mock data structure for the Mountain Thoughts Pvt. Ltd. professional consulting website, adapted from the agritecture.com design template.
 
 ## Current Implementation Status
-✅ **Frontend Complete** - Fully functional frontend with mock data
+✅ **Frontend Complete** - Fully functional frontend with company-specific content and mock data
 ⏳ **Backend Pending** - Ready for backend implementation if requested
+
+## Company Services & Focus Areas
+
+### Core Services Implemented:
+1. **Environmental Impact Assessment & Research**
+   - EIA and IEE studies
+   - Flora and fauna studies
+   - Climate change adaptation planning
+
+2. **Value Chain Development & Enterprise Support**
+   - NTFP value chain development
+   - Agricultural value chains
+   - Enterprise development consulting
+
+3. **Capacity Building & Training Programs**
+   - Master Training of Trainees (MToT)
+   - SIYB training
+   - Local government capacity building
+
+4. **Local Government Support & Planning**
+   - Revenue Improvement Action Plans (RIAP)
+   - Local Adaptation Plans for Action (LAPA)
+   - Detailed Project Reports (DPR)
+
+5. **Agriculture & Forestry Consulting**
+   - Feasibility studies
+   - Forest management plans
+   - Agricultural project development
+
+### Working Sectors:
+- Education
+- Agriculture & Forestry
+- Environment & Climate Change
+- Socio-economic Development
+- GESI (Gender Equality and Social Inclusion)
+- Tourism
+- Engineering
+- Health
+- Value Chain Development
+- Enterprise and Entrepreneurship Development
+
+## Team Structure
+
+### Core Team (7 members):
+1. **Krishna Datta Bhatta** - Managing Director (16+ years experience)
+2. **Shashi Joshi** - Executive Officer (8 years experience)
+3. **Nabina Shrestha** - Forest Expert (3 years experience)
+4. **Ajay Shahi** - Program Coordinator (3 years experience)
+5. **Prakash Gaire** - Engineer (7 years experience)
+6. **Tej Raj Bhatta** - Office Assistant (3 years experience)
+7. **Mithun Chaudhary** - Driver (9 years experience)
+
+### Expert Roster (39+ specialists):
+Including Ph.D. holders in Environmental Science, Forestry, Agriculture, and other specialized fields.
+
+## Project Experience
+
+### Key Statistics:
+- **50+ clients served**
+- **53+ major projects completed**
+- **25+ districts reached across Nepal**
+- **10+ years of operational experience**
+
+### Notable Projects:
+- Environmental Impact Assessment studies
+- Value chain development for NTFP species
+- Revenue Improvement Action Plans for multiple districts
+- Climate adaptation planning for municipalities
+- Feasibility studies across various sectors
 
 ## API Contracts
 
