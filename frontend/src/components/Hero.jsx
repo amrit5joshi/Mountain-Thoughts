@@ -19,23 +19,23 @@ const Hero = () => {
           {/* Description */}
           <div className="max-w-4xl mx-auto mb-12">
             <p className="text-lg md:text-xl text-gray-700 leading-relaxed mb-6">
-              Mountain is a global consulting firm specializing in climate-smart agriculture, mountain farming systems, 
-              controlled environment agriculture (CEA), and sustainable farming practices. We help governments, agricultural 
-              businesses, and entrepreneurs design and scale profitable, resilient, and sustainable farming solutions in 
-              mountainous and challenging terrain.
+              Mountain Thoughts Pvt. Ltd. was established in 2015 as a national level professional, autonomous 
+              organization committed to counseling, study, research, and capacity building for Government Organizations, 
+              NGOs, INGOs, private sector, and individuals through comprehensive study, research, training, workshops, 
+              and strategic campaigns.
             </p>
             
             <p className="text-lg md:text-xl text-gray-700 leading-relaxed mb-6">
-              Our expertise lies in high-altitude agriculture development—from feasibility studies, climate assessments, 
-              and terrain analysis to specialized farming systems and strategic implementation. We combine data-driven 
-              insights with mountain agriculture expertise and local knowledge to de-risk investments and accelerate 
-              sustainable farming adoption.
+              Our core working areas include Education, Agriculture, Forestry, Environment, Socio-economic development, 
+              GESI (Gender Equality and Social Inclusion), Tourism, Engineering, Health, Value Chain Development, 
+              Enterprise and Entrepreneurship Development. We have extensive experience in coordination and consultation 
+              with Government and Non-government agencies across Nepal.
             </p>
 
             <p className="text-lg md:text-xl text-gray-700 leading-relaxed">
-              Whether you're developing mountain farming initiatives, high-altitude agriculture projects, or sustainable 
-              food systems in challenging environments, Mountain helps future-proof your agricultural ventures and lead 
-              the transition to resilient mountain farming.
+              From feasibility studies and master plan preparation to capacity building training and project 
+              implementation, Mountain Thoughts helps organizations and individuals achieve sustainable development 
+              goals through evidence-based solutions and strategic partnerships.
             </p>
           </div>
 
