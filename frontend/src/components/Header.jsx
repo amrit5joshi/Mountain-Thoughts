@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Button } from './ui/button';
-import { Menu, X } from 'lucide-react';
+import { Menu, X, ChevronDown } from 'lucide-react';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -10,54 +10,66 @@ const Header = () => {
   };
 
   return (
-    <header className="w-full bg-white/95 backdrop-blur-sm border-b border-gray-100 sticky top-0 z-50">
+    <header className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-md border-b border-slate-200 shadow-sm">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-16">
+        <div className="flex justify-between items-center h-18 py-4">
           {/* Logo */}
-          <div className="flex items-center">
-            <div className="flex-shrink-0">
-              <div className="flex items-center space-x-2">
-                <div className="w-8 h-8 bg-gradient-to-r from-green-400 to-emerald-500 rounded-full flex items-center justify-center">
-                  <span className="text-white font-bold text-sm">M</span>
-                </div>
-                <span className="text-xl font-bold text-gray-900 tracking-tight">MOUNTAIN THOUGHTS</span>
+          <div className="flex items-center space-x-3">
+            <div className="relative">
+              <div className="w-12 h-12 bg-gradient-to-br from-indigo-600 to-purple-700 rounded-xl flex items-center justify-center shadow-lg">
+                <span className="text-white font-bold text-xl">MT</span>
               </div>
+              <div className="absolute -bottom-1 -right-1 w-4 h-4 bg-orange-500 rounded-full"></div>
+            </div>
+            <div>
+              <h1 className="text-xl font-bold text-slate-900">Mountain Thoughts</h1>
+              <p className="text-xs text-slate-500 -mt-1">Professional Consulting</p>
             </div>
           </div>
 
           {/* Desktop Navigation */}
-          <nav className="hidden md:block">
-            <div className="ml-10 flex items-baseline space-x-8">
-              <a href="#about" className="text-gray-600 hover:text-gray-900 px-3 py-2 text-sm font-medium tracking-wide transition-colors duration-200">
-                ABOUT
+          <nav className="hidden lg:flex items-center space-x-1">
+            <div className="flex items-center space-x-1">
+              <a href="#home" className="px-4 py-2 text-slate-700 hover:text-indigo-600 hover:bg-slate-50 rounded-lg transition-all duration-200 font-medium">
+                Home
               </a>
-              <a href="#services" className="text-gray-600 hover:text-gray-900 px-3 py-2 text-sm font-medium tracking-wide transition-colors duration-200">
-                WHAT WE DO
+              <div className="relative group">
+                <button className="flex items-center px-4 py-2 text-slate-700 hover:text-indigo-600 hover:bg-slate-50 rounded-lg transition-all duration-200 font-medium">
+                  Services
+                  <ChevronDown className="ml-1 h-4 w-4" />
+                </button>
+                <div className="absolute top-full left-0 mt-1 w-64 bg-white rounded-xl shadow-xl border border-slate-200 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200">
+                  <div className="p-2">
+                    <a href="#eia" className="block px-4 py-3 text-sm text-slate-700 hover:bg-slate-50 rounded-lg">Environmental Impact Assessment</a>
+                    <a href="#valuechain" className="block px-4 py-3 text-sm text-slate-700 hover:bg-slate-50 rounded-lg">Value Chain Development</a>
+                    <a href="#training" className="block px-4 py-3 text-sm text-slate-700 hover:bg-slate-50 rounded-lg">Capacity Building</a>
+                    <a href="#government" className="block px-4 py-3 text-sm text-slate-700 hover:bg-slate-50 rounded-lg">Government Support</a>
+                  </div>
+                </div>
+              </div>
+              <a href="#projects" className="px-4 py-2 text-slate-700 hover:text-indigo-600 hover:bg-slate-50 rounded-lg transition-all duration-200 font-medium">
+                Projects
               </a>
-              <a href="#clients" className="text-gray-600 hover:text-gray-900 px-3 py-2 text-sm font-medium tracking-wide transition-colors duration-200">
-                WHO WE SERVE
+              <a href="#team" className="px-4 py-2 text-slate-700 hover:text-indigo-600 hover:bg-slate-50 rounded-lg transition-all duration-200 font-medium">
+                Team
               </a>
-              <a href="#knowledge" className="text-gray-600 hover:text-gray-900 px-3 py-2 text-sm font-medium tracking-wide transition-colors duration-200">
-                KNOWLEDGE
+              <a href="#insights" className="px-4 py-2 text-slate-700 hover:text-indigo-600 hover:bg-slate-50 rounded-lg transition-all duration-200 font-medium">
+                Insights
               </a>
+            </div>
+            
+            <div className="ml-8">
+              <Button className="bg-gradient-to-r from-indigo-600 to-purple-600 hover:from-indigo-700 hover:to-purple-700 text-white px-6 py-2 rounded-full shadow-lg hover:shadow-xl transition-all duration-300">
+                Get Started
+              </Button>
             </div>
           </nav>
 
-          {/* CTA Button */}
-          <div className="hidden md:block">
-            <Button 
-              variant="outline" 
-              className="border-gray-900 text-gray-900 hover:bg-gray-900 hover:text-white px-6 py-2 rounded-full transition-all duration-300"
-            >
-              WORK WITH US
-            </Button>
-          </div>
-
           {/* Mobile menu button */}
-          <div className="md:hidden">
+          <div className="lg:hidden">
             <button
               onClick={toggleMenu}
-              className="text-gray-600 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500"
+              className="p-2 text-slate-600 hover:text-indigo-600 hover:bg-slate-50 rounded-lg transition-colors duration-200"
             >
               {isMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
             </button>
@@ -66,26 +78,26 @@ const Header = () => {
 
         {/* Mobile Navigation */}
         {isMenuOpen && (
-          <div className="md:hidden">
-            <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-white border-t border-gray-100">
-              <a href="#about" className="text-gray-600 hover:text-gray-900 block px-3 py-2 text-base font-medium">
-                ABOUT
+          <div className="lg:hidden border-t border-slate-200 py-4">
+            <div className="space-y-2">
+              <a href="#home" className="block px-4 py-3 text-slate-700 hover:bg-slate-50 rounded-lg font-medium">
+                Home
               </a>
-              <a href="#services" className="text-gray-600 hover:text-gray-900 block px-3 py-2 text-base font-medium">
-                WHAT WE DO
+              <a href="#services" className="block px-4 py-3 text-slate-700 hover:bg-slate-50 rounded-lg font-medium">
+                Services
               </a>
-              <a href="#clients" className="text-gray-600 hover:text-gray-900 block px-3 py-2 text-base font-medium">
-                WHO WE SERVE
+              <a href="#projects" className="block px-4 py-3 text-slate-700 hover:bg-slate-50 rounded-lg font-medium">
+                Projects
               </a>
-              <a href="#knowledge" className="text-gray-600 hover:text-gray-900 block px-3 py-2 text-base font-medium">
-                KNOWLEDGE
+              <a href="#team" className="block px-4 py-3 text-slate-700 hover:bg-slate-50 rounded-lg font-medium">
+                Team
               </a>
-              <div className="px-3 py-2">
-                <Button 
-                  variant="outline" 
-                  className="w-full border-gray-900 text-gray-900 hover:bg-gray-900 hover:text-white rounded-full"
-                >
-                  WORK WITH US
+              <a href="#insights" className="block px-4 py-3 text-slate-700 hover:bg-slate-50 rounded-lg font-medium">
+                Insights
+              </a>
+              <div className="pt-4">
+                <Button className="w-full bg-gradient-to-r from-indigo-600 to-purple-600 hover:from-indigo-700 hover:to-purple-700 text-white py-3 rounded-full">
+                  Get Started
                 </Button>
               </div>
             </div>

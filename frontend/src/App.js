@@ -3,7 +3,7 @@ import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Header from './components/Header';
 import Hero from './components/Hero';
-import Features from './components/Features';
+import Services from './components/Services';
 import Stats from './components/Stats';
 import Team from './components/Team';
 import Latest from './components/Latest';
@@ -14,7 +14,7 @@ const Home = () => {
     <div className="min-h-screen bg-white">
       <Header />
       <Hero />
-      <Features />
+      <Services />
       <Stats />
       <Team />
       <Latest />
