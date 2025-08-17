@@ -32,7 +32,7 @@ const Stats = () => {
       id: 4,
       value: mockStats.yearsExperience + '+',
       label: 'Years Experience',
-      description: 'Combined team expertise in mountain farming',
+      description: 'Combined team expertise in development consulting',
       icon: Calendar,
       color: 'text-orange-600'
     }
