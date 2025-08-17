@@ -8,7 +8,7 @@ const Stats = () => {
       id: 1,
       value: mockStats.clientsServed + '+',
       label: 'Clients Served',
-      description: 'Mountain agriculture projects worldwide',
+      description: 'Professional consulting and research projects',
       icon: Users,
       color: 'text-emerald-600'
     },
