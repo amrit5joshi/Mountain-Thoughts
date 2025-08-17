@@ -36,23 +36,23 @@ export const mockBlogPosts = [
 export const mockEvents = [
   {
     id: 1,
-    title: "Summit - Mountain Farming World Congress 2025",
-    date: "2025-10-15",
-    endDate: "2025-10-17",
-    location: "Denver, Colorado",
-    description: "The premier global event for mountain agriculture professionals, featuring the latest innovations in high-altitude farming.",
+    title: "Nepal Development Consulting Summit 2025",
+    date: "2025-09-15",
+    endDate: "2025-09-17",
+    location: "Kathmandu, Nepal",
+    description: "The premier event for development consulting professionals in Nepal, featuring latest methodologies in EIA, value chain development, and capacity building.",
     image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?crop=entropy&cs=srgb&fm=jpg&ixid=M3w0NzI3MDV8MHwxfHNlYXJjaHw0fHxtb3VudGFpbiUyMGZhcm1pbmd8ZW58MHx8fHwxNzU1NDI5MzU5fDA&ixlib=rb-4.1.0&q=85",
-    slug: "mountain-farming-world-congress-2025"
+    slug: "nepal-development-consulting-summit-2025"
   },
   {
     id: 2,
-    title: "Alpine Agriculture Innovation Summit",
-    date: "2025-09-28",
-    endDate: "2025-09-29",
-    location: "Zurich, Switzerland",
-    description: "Two-day intensive workshop on climate-resilient farming techniques for alpine environments.",
+    title: "Sustainable Development Workshop Series",
+    date: "2025-08-28",
+    endDate: "2025-08-30",
+    location: "Lalitpur, Nepal",
+    description: "Three-day intensive workshop on sustainable development practices, environmental assessment, and local government capacity building.",
     image: "https://images.unsplash.com/photo-1586771107445-d3ca888129ff?crop=entropy&cs=srgb&fm=jpg&ixid=M3w0NzI3MDV8MHwxfHNlYXJjaHwyfHxtb3VudGFpbiUyMGZhcm1pbmd8ZW58MHx8fHwxNzU1NDI5MzU5fDA&ixlib=rb-4.1.0&q=85",
-    slug: "alpine-agriculture-innovation-summit"
+    slug: "sustainable-development-workshop-series"
   }
 ];
 
