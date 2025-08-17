@@ -100,7 +100,7 @@ const Footer = () => {
               </li>
               <li>
                 <a href="#" className="text-gray-300 hover:text-emerald-400 transition-colors duration-200">
-                  Mountain Designer Tool
+                  Project Reports & Publications
                 </a>
               </li>
             </ul>
