@@ -121,8 +121,8 @@ export const mockClients = [
 ];
 
 export const mockStats = {
-  clientsServed: 150,
-  projectsCompleted: 200,
-  countriesReached: 45,
-  yearsExperience: 12
+  clientsServed: 50,
+  projectsCompleted: 53,
+  districtsReached: 25,
+  yearsExperience: 10
 };
