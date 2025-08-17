@@ -3,33 +3,33 @@
 export const mockBlogPosts = [
   {
     id: 1,
-    title: "Shape Nepal's Mountain Food Future: Apply Now for the High-Altitude Agriculture Design Workshop",
-    excerpt: "Join Nepal's High-Altitude Agriculture Design Workshop Sept 20 to shape the mountain region's food future with experts, innovators & local changemakers.",
+    title: "Environmental Impact Assessment: Best Practices for Sustainable Development in Nepal",
+    excerpt: "Learn about the comprehensive EIA methodologies we employ for various development projects across Nepal, ensuring environmental sustainability and regulatory compliance.",
     date: "2025-01-15",
-    category: "Workshop",
-    readTime: "3 min read",
+    category: "Environmental",
+    readTime: "4 min read",
     image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?crop=entropy&cs=srgb&fm=jpg&ixid=M3w0NzI3MDV8MHwxfHNlYXJjaHw0fHxtb3VudGFpbiUyMGZhcm1pbmd8ZW58MHx8fHwxNzU1NDI5MzU5fDA&ixlib=rb-4.1.0&q=85",
-    slug: "shape-nepal-mountain-food-future"
+    slug: "eia-best-practices-nepal"
   },
   {
     id: 2,
-    title: "Climate Adaptation Strategies for High-Altitude Farming",
-    excerpt: "Discover the latest innovations in mountain agriculture and how farmers are adapting to changing climate conditions at elevation.",
+    title: "Value Chain Development Success Stories: NTFP Enterprises in Sudurpaschim Province",
+    excerpt: "Discover how our comprehensive value chain analysis and development support has transformed NTFP enterprises and improved livelihoods in remote mountain communities.",
     date: "2025-01-10",
-    category: "Research",
-    readTime: "5 min read",
+    category: "Value Chain",
+    readTime: "6 min read",
     image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?crop=entropy&cs=srgb&fm=jpg&ixid=M3w0NzI3MDV8MHwxfHNlYXJjaHwzfHxtb3VudGFpbiUyMGZhcm1pbmd8ZW58MHx8fHwxNzU1NDI5MzU5fDA&ixlib=rb-4.1.0&q=85",
-    slug: "climate-adaptation-high-altitude-farming"
+    slug: "ntfp-value-chain-success-sudurpaschim"
   },
   {
     id: 3,
-    title: "Vertical Farming Solutions for Mountain Communities",
-    excerpt: "How controlled environment agriculture is revolutionizing food production in remote mountain regions worldwide.",
+    title: "Local Government Capacity Building: Revenue Improvement Action Plans Making a Difference",
+    excerpt: "How our RIAP methodology is helping local governments across Nepal strengthen their financial sustainability and service delivery capabilities.",
     date: "2025-01-05",
-    category: "Innovation",
-    readTime: "4 min read",
+    category: "Governance",
+    readTime: "5 min read",
     image: "https://images.unsplash.com/photo-1581092335878-2d9ff86ca2bf?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzR8MHwxfHNlYXJjaHwxfHxhZ3JpY3VsdHVyZSUyMHRlY2hub2xvZ3l8ZW58MHx8fHwxNzU1NDI5MzU0fDA&ixlib=rb-4.1.0&q=85",
-    slug: "vertical-farming-mountain-communities"
+    slug: "local-government-capacity-building-riap"
   }
 ];
 
