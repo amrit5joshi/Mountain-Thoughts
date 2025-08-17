@@ -59,17 +59,17 @@ export const mockEvents = [
 export const mockResearchReports = [
   {
     id: 1,
-    title: "The Impact of Climate Change on Mountain Agriculture in the Himalayan Region",
+    title: "Impact Assessment of Protected Forest Areas on Nepal's National Economy (GDP)",
     date: "2024-12-20",
-    description: "This comprehensive analysis examines the effects of changing climate patterns on traditional and modern farming practices in high-altitude regions, focusing on adaptation strategies and sustainable solutions.",
+    description: "This comprehensive analysis examines the economic contribution of protected forest areas to Nepal's GDP, conducted for the National Planning Commission. The study provides critical insights for policy makers on the economic value of forest conservation.",
     downloadUrl: "#",
     image: "https://images.unsplash.com/photo-1657441919044-06ff5ee50279?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzR8MHwxfHNlYXJjaHwxfHxtb3VudGFpbiUyMGZhcm1pbmd8ZW58MHx8fHwxNzU1NDI5MzU5fDA&ixlib=rb-4.1.0&q=85"
   },
   {
     id: 2,
-    title: "Sustainable Mountain Agriculture: Global Best Practices 2024",
+    title: "Value Chain Development of High Value NTFP Species in Sudurpaschim Province",
     date: "2024-11-15",
-    description: "A detailed study of successful mountain farming initiatives worldwide, including case studies from the Andes, Alps, Rockies, and Himalayas.",
+    description: "Detailed assessment of five major high-value Non-Timber Forest Product species across four districts of Sudurpaschim Province, including market analysis, value chain mapping, and development recommendations.",
     downloadUrl: "#",
     image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?crop=entropy&cs=srgb&fm=jpg&ixid=M3w0NzI3MDV8MHwxfHNlYXJjaHwzfHxtb3VudGFpbiUyMGZhcm1pbmd8ZW58MHx8fHwxNzU1NDI5MzU5fDA&ixlib=rb-4.1.0&q=85"
   }
