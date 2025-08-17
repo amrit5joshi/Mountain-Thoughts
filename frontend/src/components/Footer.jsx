@@ -148,7 +148,7 @@ const Footer = () => {
               </a>
             </div>
             <div className="text-gray-400 text-sm">
-              © 2025 Mountain Consulting. All rights reserved.
+              © 2025 Mountain Thoughts Pvt. Ltd. All rights reserved. | VAT No: 609687815
             </div>
           </div>
         </div>
