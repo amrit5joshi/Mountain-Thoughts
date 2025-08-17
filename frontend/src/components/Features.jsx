@@ -7,50 +7,50 @@ const Features = () => {
   const features = [
     {
       id: 1,
-      title: "Making Mountain Data More Accessible",
-      description: "Mountain Designer is the only platform for planning high-altitude farming facilities from start to finish, anywhere in the world. Join the hundreds of entrepreneurs from 40+ countries who have reduced their planning time using our advanced mountain agriculture software.",
+      title: "Environmental Impact Assessment & Research",
+      description: "Comprehensive Environmental Impact Assessment (EIA) and Initial Environmental Examination (IEE) studies for various development projects. We conduct detailed environmental research, flora and fauna studies, and climate change adaptation planning to ensure sustainable development practices.",
       image: "https://images.unsplash.com/photo-1589923188900-85dae523342b?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzV8MHwxfHNlYXJjaHwxfHxzdXN0YWluYWJsZSUyMGFncmljdWx0dXJlfGVufDB8fHx8MTc1NTQyOTM0OXww&ixlib=rb-4.1.0&q=85",
-      buttonText: "Get Started Today",
+      buttonText: "View EIA Services",
       buttonVariant: "default"
     },
     {
       id: 2,
-      title: "Avoiding Mistakes in Mountain Farming",
-      description: "Mountain designed Alpine Harvest's first high-altitude facility, recruited their Lead Agronomist, and researched climate-resistant crop varieties for mountain production. Learn more about some of the 150+ clients we've helped solve unique challenges in mountain agriculture planning.",
+      title: "Value Chain Development & Enterprise Support",
+      description: "Specialized expertise in NTFP (Non-Timber Forest Products) value chain development, agricultural value chains, and enterprise development. We help identify opportunities, conduct feasibility studies, and provide comprehensive support for sustainable business development in rural Nepal.",
       image: "https://images.unsplash.com/photo-1657441919044-06ff5ee50279?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzR8MHwxfHNlYXJjaHwxfHxtb3VudGFpbiUyMGZhcm1pbmd8ZW58MHx8fHwxNzU1NDI5MzU5fDA&ixlib=rb-4.1.0&q=85",
-      buttonText: "View Our Portfolio",
+      buttonText: "Explore Value Chains",
       buttonVariant: "outline"
     },
     {
       id: 3,
-      title: "2025 Global Mountain Agriculture Report",
-      description: "This comprehensive report provides a deep dive into the current trends, challenges, and opportunities shaping the Mountain Agriculture industry worldwide, focusing on high-altitude farming systems and climate adaptation strategies.",
+      title: "Capacity Building & Training Programs",
+      description: "Master Training of Trainees (MToT), entrepreneurship development programs, SIYB (Start and Improve Your Business) training, and specialized capacity building for local governments, cooperatives, and community organizations across multiple sectors.",
       image: "https://images.unsplash.com/photo-1581092335878-2d9ff86ca2bf?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzR8MHwxfHNlYXJjaHwxfHxhZ3JpY3VsdHVyZSUyMHRlY2hub2xvZ3l8ZW58MHx8fHwxNzU1NDI5MzU0fDA&ixlib=rb-4.1.0&q=85",
-      buttonText: "Participate Now",
+      buttonText: "Training Programs",
       buttonVariant: "default"
     },
     {
       id: 4,
-      title: "Multi-Stakeholder Mountain Initiatives",
-      description: "Mountain and Alpine Research Institute were awarded the 'Climate Adaptation Grant'. The partnership is working together to use Machine Learning and Artificial Intelligence to improve the viability of mountain agriculture under volatile climate conditions.",
+      title: "Local Government Support & Planning",
+      description: "Revenue Improvement Action Plans (RIAP), Local Adaptation Plans for Action (LAPA), detailed project reports (DPR), and comprehensive municipal planning support. We work closely with local governments across Nepal to strengthen governance and service delivery.",
       image: "https://images.unsplash.com/photo-1586771107445-d3ca888129ff?crop=entropy&cs=srgb&fm=jpg&ixid=M3w0NzI3MDV8MHwxfHNlYXJjaHwyfHxtb3VudGFpbiUyMGZhcm1pbmd8ZW58MHx8fHwxNzU1NDI5MzU5fDA&ixlib=rb-4.1.0&q=85",
-      buttonText: "Watch Our Recent Panel",
+      buttonText: "Government Services",
       buttonVariant: "outline"
     },
     {
       id: 5,
-      title: "Sustainable Mountain Practices",
-      description: "Mountain is advancing sustainability in high-altitude agriculture through a variety of offerings - including sustainability benchmarking, climate adaptation guidelines, our spotlight on mountain innovators, and our Global Mountain Agriculture Report.",
+      title: "Agriculture & Forestry Consulting",
+      description: "Specialized consulting in agriculture, forestry, medicinal plants, and sustainable resource management. From crop insurance facilitation to forest management plans and agricultural feasibility studies, we provide comprehensive sector expertise.",
       image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?crop=entropy&cs=srgb&fm=jpg&ixid=M3w0NzI3MDV8MHwxfHNlYXJjaHwzfHxtb3VudGFpbiUyMGZhcm1pbmd8ZW58MHx8fHwxNzU1NDI5MzU5fDA&ixlib=rb-4.1.0&q=85",
-      buttonText: "View Our Sustainability Resources",
+      buttonText: "Agriculture Services",
       buttonVariant: "outline"
     },
     {
       id: 6,
-      title: "Work With Mountain",
-      description: "Mountain has worked with over 150 clients in 75+ mountain regions around the world. Learn more about our consulting services for entrepreneurs, investors, mountain communities, suppliers, corporations, and more focused on high-altitude agriculture.",
+      title: "Work With Mountain Thoughts",
+      description: "Mountain Thoughts has successfully completed 50+ major projects with Government, NGOs, INGOs, and private sector clients across Nepal. Our multidisciplinary team of 40+ experts is ready to support your development initiatives with professional excellence.",
       image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?crop=entropy&cs=srgb&fm=jpg&ixid=M3w0NzI3MDV8MHwxfHNlYXJjaHw0fHxtb3VudGFpbiUyMGZhcm1pbmd8ZW58MHx8fHwxNzU1NDI5MzU5fDA&ixlib=rb-4.1.0&q=85",
-      buttonText: "Submit Consulting Request",
+      buttonText: "Partner With Us",
       buttonVariant: "default"
     }
   ];
