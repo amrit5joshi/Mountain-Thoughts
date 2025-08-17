@@ -9,11 +9,11 @@ const Hero = () => {
         <div className="text-center">
           {/* Main Headline */}
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-8 leading-tight">
-            Climate-Smart Agriculture Consulting & 
+            Professional Consulting & Research Services for 
             <br />
-            <span className="text-emerald-600">Mountain Farming Strategy</span>
+            <span className="text-emerald-600">Sustainable Development</span>
             <br />
-            for Resilient Food Systems.
+            in Nepal and Beyond.
           </h1>
 
           {/* Description */}
