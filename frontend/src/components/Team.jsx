@@ -1,115 +1,277 @@
 import React from 'react';
 import { Card, CardContent } from './ui/card';
-import { Button } from './ui/button';
+import { Badge } from './ui/badge';
+import { Users, Star } from 'lucide-react';
 
 const Team = () => {
   const teamMembers = [
     {
       id: 1,
-      name: "Krishna Datta Bhatta, Managing Director",
-      description: "Krishna has 16+ years of experience in overall management of consulting projects and companies. He holds an M.A. in Sociology and leads Mountain Thoughts' strategic direction, ensuring successful project delivery across multiple sectors including agriculture, environment, and socio-economic development.",
-      expertise: "overall project management, strategic planning, multi-sector consulting",
-      image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NjI2fDB8MXxzZWFyY2h8M3x8cHJvZmVzc2lvbmFsJTIwbWFufGVufDB8fHx8MTc1NTQyOTM5NHww&ixlib=rb-4.1.0&q=85&w=400&h=400"
+      name: "Krishna Datta Bhatta",
+      role: "Managing Director",
+      experience: "16+ Years",
+      education: "M.A. Sociology",
+      expertise: ["Project Management", "Strategic Planning", "Multi-sector Consulting"],
+      description: "Leads Mountain Thoughts' strategic direction with extensive experience in managing diverse consulting projects across multiple sectors.",
+      image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NjI2fDB8MXxzZWFyY2h8M3x8cHJvZmVzc2lvbmFsJTIwbWFufGVufDB8fHx8MTc1NTQyOTM5NHww&ixlib=rb-4.1.0&q=85&w=400&h=400",
+      color: "from-indigo-500 to-purple-600"
     },
     {
       id: 2,
-      name: "Shashi Joshi, Executive Officer",
-      description: "Shashi brings 8 years of experience in executive operations with an M.A. in Sociology. She oversees day-to-day operations and ensures smooth execution of projects across the organization's diverse portfolio of consulting services.",
-      expertise: "executive operations, project coordination, organizational management",
-      image: "https://images.unsplash.com/photo-1494790108755-2616b612b765?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NjI2fDB8MXxzZWFyY2h8Mnx8cHJvZmVzc2lvbmFsJTIwd29tYW58ZW58MHx8fHwxNzU1NDI5Mzg5fDA&ixlib=rb-4.1.0&q=85&w=400&h=400"
+      name: "Shashi Joshi",
+      role: "Executive Officer",
+      experience: "8+ Years", 
+      education: "M.A. Sociology",
+      expertise: ["Executive Operations", "Project Coordination", "Organizational Management"],
+      description: "Oversees day-to-day operations ensuring smooth execution of projects across the organization's diverse consulting portfolio.",
+      image: "https://images.unsplash.com/photo-1494790108755-2616b612b765?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NjI2fDB8MXxzZWFyY2h8Mnx8cHJvZmVzc2lvbmFsJTIwd29tYW58ZW58MHx8fHwxNzU1NDI5Mzg5fDA&ixlib=rb-4.1.0&q=85&w=400&h=400",
+      color: "from-pink-500 to-rose-600"
     },
     {
       id: 3,
-      name: "Nabina Shrestha, Forest Expert",
-      description: "Nabina holds an M.Sc. in Wildlife and Forestry with 3 years of specialized experience. She provides part-time expertise in forest management, wildlife conservation, and environmental assessment projects, contributing to sustainable forestry practices.",
-      expertise: "wildlife and forestry, environmental assessment, conservation planning",
-      image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NjI2fDB8MXxzZWFyY2h8NHx8cHJvZmVzc2lvbmFsJTIwd29tYW58ZW58MHx8fHwxNzU1NDI5Mzg5fDA&ixlib=rb-4.1.0&q=85&w=400&h=400"
+      name: "Nabina Shrestha",
+      role: "Forest Expert",
+      experience: "3+ Years",
+      education: "M.Sc. Wildlife & Forestry",
+      expertise: ["Wildlife Conservation", "Environmental Assessment", "Forest Management"],
+      description: "Provides specialized expertise in forest management, wildlife conservation, and environmental assessment projects.",
+      image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NjI2fDB8MXxzZWFyY2h8NHx8cHJvZmVzc2lvbmFsJTIwd29tYW58ZW58MHx8fHwxNzU1NDI5Mzg5fDA&ixlib=rb-4.1.0&q=85&w=400&h=400",
+      color: "from-green-500 to-emerald-600"
     },
     {
       id: 4,
-      name: "Ajay Shahi, Program Coordinator",
-      description: "Ajay brings 3 years of regular experience with a BSc. in Agriculture. As Program Coordinator, he manages agricultural projects, coordinates with stakeholders, and ensures effective implementation of rural development initiatives.",
-      expertise: "agricultural programs, stakeholder coordination, rural development",
-      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NjI2fDB8MXxzZWFyY2h8NXx8cHJvZmVzc2lvbmFsJTIwbWFufGVufDB8fHx8MTc1NTQyOTM5NHww&ixlib=rb-4.1.0&q=85&w=400&h=400"
+      name: "Ajay Shahi",
+      role: "Program Coordinator",
+      experience: "3+ Years",
+      education: "BSc. Agriculture",
+      expertise: ["Agricultural Programs", "Stakeholder Coordination", "Rural Development"],
+      description: "Manages agricultural projects and coordinates with stakeholders to ensure effective implementation of rural development initiatives.",
+      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NjI2fDB8MXxzZWFyY2h8NXx8cHJvZmVzc2lvbmFsJTIwbWFufGVufDB8fHx8MTc1NTQyOTM5NHww&ixlib=rb-4.1.0&q=85&w=400&h=400",
+      color: "from-blue-500 to-cyan-600"
     },
     {
       id: 5,
-      name: "Prakash Gaire, Engineer",
-      description: "Prakash holds a Master's in Engineering with 7 years of project-based experience. He provides technical engineering support for infrastructure projects, conducts feasibility studies, and ensures technical compliance in development projects.",
-      expertise: "engineering design, infrastructure projects, technical feasibility studies",
-      image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NjI2fDB8MXxzZWFyY2h8N3x8cHJvZmVzc2lvbmFsJTIwbWFufGVufDB8fHx8MTc1NTQyOTM5NHww&ixlib=rb-4.1.0&q=85&w=400&h=400"
-    },
-    {
-      id: 6,
-      name: "Expert Roster Network",
-      description: "Mountain Thoughts maintains a roster of 39+ specialized experts including Ph.D. holders in Environment Science, Forestry, Agriculture, and other fields. This network includes Dr. Ramesh Raj Pant (Environmental Science), Dr. Nabin Raj Joshi (NTFP Value Chain), and many other distinguished professionals.",
-      expertise: "multi-disciplinary expertise, specialized consulting, research and development",
-      image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NjI2fDB8MXxzZWFyY2h8Nnx8cHJvZmVzc2lvbmFsJTIwd29tYW58ZW58MHx8fHwxNzU1NDI5Mzg5fDA&ixlib=rb-4.1.0&q=85&w=400&h=400"
+      name: "Prakash Gaire",
+      role: "Engineer",
+      experience: "7+ Years",
+      education: "Master in Engineering",
+      expertise: ["Engineering Design", "Infrastructure Projects", "Technical Feasibility"],
+      description: "Provides technical engineering support for infrastructure projects and conducts comprehensive feasibility studies.",
+      image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NjI2fDB8MXxzZWFyY2h8N3x8cHJvZmVzc2lvbmFsJTIwbWFufGVufDB8fHx8MTc1NTQyOTM5NHww&ixlib=rb-4.1.0&q=85&w=400&h=400",
+      color: "from-orange-500 to-red-600"
     }
   ];
 
   return (
-    <section className="py-20 bg-gradient-to-br from-sky-50 via-blue-50 to-indigo-50" id="team">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <section className="py-24 bg-gradient-to-br from-slate-50 via-white to-indigo-50 relative overflow-hidden" id="team">
+      {/* Background Elements */}
+      <div className="absolute inset-0">
+        <div className="absolute top-20 right-20 w-72 h-72 bg-purple-200 rounded-full mix-blend-multiply filter blur-xl opacity-30 animate-blob"></div>
+        <div className="absolute bottom-20 left-20 w-72 h-72 bg-cyan-200 rounded-full mix-blend-multiply filter blur-xl opacity-30 animate-blob animation-delay-2000"></div>
+      </div>
+
+      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-            Meet Our Team of Professional Consultants
-          </h2>
-          <div className="max-w-4xl mx-auto">
-            <p className="text-lg text-gray-700 leading-relaxed mb-4">
-              Mountain Thoughts Pvt. Ltd.'s core team brings diverse expertise in project management, environmental 
-              science, agriculture, engineering, and socio-economic development. Our team is supported by a roster 
-              of 39+ specialized experts across multiple disciplines.
-            </p>
-            <p className="text-lg text-gray-700 leading-relaxed mb-4">
-              We transform development challenges into actionable solutions through feasibility studies, 
-              environmental assessments, capacity building programs, and strategic project implementation 
-              across Nepal and the region.
-            </p>
-            <p className="text-lg text-gray-700 leading-relaxed">
-              Whether you're a government agency, NGO, private organization, or individual seeking professional 
-              consulting services, our multidisciplinary team delivers evidence-based solutions and sustainable 
-              development outcomes.
-            </p>
+          <div className="inline-flex items-center px-4 py-2 bg-indigo-100 text-indigo-700 rounded-full text-sm font-medium mb-6">
+            <Users className="w-4 h-4 mr-2" />
+            Our Team
           </div>
+          <h2 className="text-4xl lg:text-5xl font-bold text-slate-900 mb-6">
+            Meet The Experts Behind
+            <span className="block text-transparent bg-clip-text bg-gradient-to-r from-indigo-600 to-purple-600">
+              Our Success
+            </span>
+          </h2>
+          <p className="text-xl text-slate-600 max-w-3xl mx-auto leading-relaxed">
+            Our diverse team of professionals brings decades of combined expertise across 
+            environmental science, agriculture, engineering, and socio-economic development.
+          </p>
         </div>
 
         {/* Team Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
-          {teamMembers.map((member) => (
-            <Card key={member.id} className="bg-white/80 backdrop-blur-sm hover:bg-white transition-all duration-300 hover:shadow-xl transform hover:-translate-y-2 group">
-              <CardContent className="p-6 text-center">
-                <div className="w-32 h-32 mx-auto mb-6 rounded-full overflow-hidden group-hover:scale-105 transition-transform duration-300">
-                  <img 
-                    src={member.image} 
-                    alt={member.name}
-                    className="w-full h-full object-cover"
-                  />
+        <div className="grid lg:grid-cols-3 gap-8 mb-16">
+          {/* Featured Team Member */}
+          <div className="lg:col-span-2">
+            <Card className="h-full bg-white border-0 shadow-2xl hover:shadow-3xl transition-all duration-500 transform hover:-translate-y-2 overflow-hidden">
+              <CardContent className="p-0">
+                <div className="flex flex-col lg:flex-row h-full">
+                  {/* Image */}
+                  <div className="lg:w-1/2 relative">
+                    <img 
+                      src={teamMembers[0].image} 
+                      alt={teamMembers[0].name}
+                      className="w-full h-64 lg:h-full object-cover"
+                    />
+                    <div className={`absolute inset-0 bg-gradient-to-r ${teamMembers[0].color} opacity-20`}></div>
+                  </div>
+                  
+                  {/* Content */}
+                  <div className="lg:w-1/2 p-8 lg:p-12 flex flex-col justify-center">
+                    <div className="flex items-center mb-4">
+                      <div className={`w-3 h-3 bg-gradient-to-r ${teamMembers[0].color} rounded-full mr-3`}></div>
+                      <Badge variant="secondary" className="bg-indigo-100 text-indigo-700">
+                        {teamMembers[0].experience}
+                      </Badge>
+                    </div>
+                    
+                    <h3 className="text-2xl lg:text-3xl font-bold text-slate-900 mb-2">
+                      {teamMembers[0].name}
+                    </h3>
+                    <p className={`text-lg font-semibold text-transparent bg-clip-text bg-gradient-to-r ${teamMembers[0].color} mb-2`}>
+                      {teamMembers[0].role}
+                    </p>
+                    <p className="text-sm text-slate-500 mb-4">{teamMembers[0].education}</p>
+                    
+                    <p className="text-slate-600 leading-relaxed mb-6">
+                      {teamMembers[0].description}
+                    </p>
+
+                    <div className="space-y-2">
+                      <p className="text-sm font-semibold text-slate-700 mb-2">Key Expertise:</p>
+                      <div className="flex flex-wrap gap-2">
+                        {teamMembers[0].expertise.map((skill, index) => (
+                          <span 
+                            key={index}
+                            className="px-3 py-1 bg-slate-100 text-slate-700 rounded-full text-xs font-medium"
+                          >
+                            {skill}
+                          </span>
+                        ))}
+                      </div>
+                    </div>
+                  </div>
                 </div>
-                <h3 className="text-xl font-bold text-gray-900 mb-4 group-hover:text-emerald-600 transition-colors duration-300">
-                  {member.name}
-                </h3>
-                <p className="text-gray-700 text-sm leading-relaxed mb-4">
-                  {member.description}
-                </p>
-                <div className="border-t border-gray-200 pt-4">
-                  <p className="text-sm font-semibold text-emerald-600 mb-1">Expertise:</p>
-                  <p className="text-sm text-gray-600">{member.expertise}</p>
+              </CardContent>
+            </Card>
+          </div>
+
+          {/* Side Team Members */}
+          <div className="space-y-8">
+            {teamMembers.slice(1, 3).map((member) => (
+              <Card key={member.id} className="bg-white border-0 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 group overflow-hidden">
+                <CardContent className="p-6">
+                  <div className="flex items-start space-x-4">
+                    <div className="relative flex-shrink-0">
+                      <img 
+                        src={member.image} 
+                        alt={member.name}
+                        className="w-16 h-16 rounded-2xl object-cover group-hover:scale-110 transition-transform duration-300"
+                      />
+                      <div className={`absolute -bottom-1 -right-1 w-5 h-5 bg-gradient-to-r ${member.color} rounded-full border-2 border-white`}></div>
+                    </div>
+                    
+                    <div className="flex-1 min-w-0">
+                      <div className="flex items-center justify-between mb-2">
+                        <h3 className="text-lg font-bold text-slate-900 truncate">{member.name}</h3>
+                        <Badge variant="outline" className="text-xs">
+                          {member.experience}
+                        </Badge>
+                      </div>
+                      <p className={`text-sm font-semibold text-transparent bg-clip-text bg-gradient-to-r ${member.color} mb-1`}>
+                        {member.role}
+                      </p>
+                      <p className="text-xs text-slate-500 mb-3">{member.education}</p>
+                      <p className="text-sm text-slate-600 leading-relaxed mb-3">
+                        {member.description}
+                      </p>
+                      <div className="flex flex-wrap gap-1">
+                        {member.expertise.slice(0, 2).map((skill, index) => (
+                          <span 
+                            key={index}
+                            className="px-2 py-1 bg-slate-100 text-slate-600 rounded text-xs"
+                          >
+                            {skill}
+                          </span>
+                        ))}
+                      </div>
+                    </div>
+                  </div>
+                </CardContent>
+              </Card>
+            ))}
+          </div>
+        </div>
+
+        {/* Bottom Row Team Members */}
+        <div className="grid md:grid-cols-2 gap-8 mb-16">
+          {teamMembers.slice(3).map((member) => (
+            <Card key={member.id} className="bg-white border-0 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 group overflow-hidden">
+              <CardContent className="p-8">
+                <div className="flex items-start space-x-6">
+                  <div className="relative flex-shrink-0">
+                    <img 
+                      src={member.image} 
+                      alt={member.name}
+                      className="w-20 h-20 rounded-2xl object-cover group-hover:scale-110 transition-transform duration-300"
+                    />
+                    <div className={`absolute -bottom-2 -right-2 w-6 h-6 bg-gradient-to-r ${member.color} rounded-full border-2 border-white flex items-center justify-center`}>
+                      <Star className="w-3 h-3 text-white fill-current" />
+                    </div>
+                  </div>
+                  
+                  <div className="flex-1">
+                    <div className="flex items-center justify-between mb-2">
+                      <h3 className="text-xl font-bold text-slate-900">{member.name}</h3>
+                      <Badge className={`bg-gradient-to-r ${member.color} text-white`}>
+                        {member.experience}
+                      </Badge>
+                    </div>
+                    <p className={`text-lg font-semibold text-transparent bg-clip-text bg-gradient-to-r ${member.color} mb-1`}>
+                      {member.role}
+                    </p>
+                    <p className="text-sm text-slate-500 mb-4">{member.education}</p>
+                    <p className="text-slate-600 leading-relaxed mb-4">
+                      {member.description}
+                    </p>
+                    <div className="space-y-2">
+                      <p className="text-sm font-semibold text-slate-700">Specializations:</p>
+                      <div className="flex flex-wrap gap-2">
+                        {member.expertise.map((skill, index) => (
+                          <span 
+                            key={index}
+                            className="px-3 py-1 bg-slate-100 text-slate-700 rounded-full text-xs font-medium hover:bg-slate-200 transition-colors duration-200"
+                          >
+                            {skill}
+                          </span>
+                        ))}
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </CardContent>
             </Card>
           ))}
         </div>
 
-        {/* CTA */}
+        {/* Expert Roster CTA */}
         <div className="text-center">
-          <Button 
-            size="lg"
-            className="bg-emerald-600 hover:bg-emerald-700 text-white px-8 py-4 rounded-full text-lg font-medium transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl"
-          >
-            Get in Touch
-          </Button>
+          <Card className="bg-gradient-to-r from-slate-900 to-slate-800 border-0 shadow-2xl overflow-hidden max-w-4xl mx-auto">
+            <CardContent className="p-8 lg:p-12 text-center text-white">
+              <div className="flex items-center justify-center mb-6">
+                <div className="w-16 h-16 bg-gradient-to-r from-cyan-500 to-blue-600 rounded-2xl flex items-center justify-center">
+                  <Users className="w-8 h-8 text-white" />
+                </div>
+              </div>
+              
+              <h3 className="text-2xl lg:text-3xl font-bold mb-4">
+                Extended Expert Network
+              </h3>
+              <p className="text-slate-300 mb-8 max-w-2xl mx-auto leading-relaxed">
+                Beyond our core team, we maintain a roster of 39+ specialized experts including Ph.D. 
+                holders in Environmental Science, Forestry, Agriculture, and other critical fields to serve your unique needs.
+              </p>
+              
+              <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                <button className="px-8 py-4 bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-600 hover:to-blue-700 text-white rounded-full font-semibold shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1">
+                  Meet Our Experts
+                </button>
+                <button className="px-8 py-4 border-2 border-white/30 text-white hover:bg-white/10 rounded-full font-semibold transition-all duration-300 backdrop-blur-sm">
+                  Join Our Team
+                </button>
+              </div>
+            </CardContent>
+          </Card>
         </div>
       </div>
     </section>
