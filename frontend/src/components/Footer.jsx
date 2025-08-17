@@ -112,8 +112,8 @@ const Footer = () => {
           <div className="text-center mb-8">
             <h3 className="text-2xl font-bold mb-4">Stay Updated</h3>
             <p className="text-gray-300 mb-6 max-w-2xl mx-auto">
-              Get the latest insights on mountain agriculture, climate adaptation strategies, 
-              and sustainable farming innovations delivered to your inbox.
+              Get the latest insights on sustainable development, environmental consulting, 
+              and capacity building innovations delivered to your inbox.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center max-w-md mx-auto">
               <input 
